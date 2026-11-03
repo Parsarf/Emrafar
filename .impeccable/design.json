@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "source": "assets/css/styles.css",
+  "colors": {
+    "ink": "#143547",
+    "muted": "#536a76",
+    "blue": "#1677a9",
+    "sky": "#eaf5fb",
+    "sky-strong": "#c9e8f6",
+    "line": "#d8e3e8",
+    "white": "#ffffff"
+  },
+  "motion": {
+    "ease": "cubic-bezier(.16, 1, .3, 1)",
+    "hero": "hero-image-in 1.4s",
+    "disclosure": "height .45s, content-visibility .45s allow-discrete",
+    "reducedMotion": "Disable animations, transitions, and smooth scrolling"
+  },
+  "focus": {
+    "outline": "2px solid #1677a9",
+    "offset": "6px"
+  },
+  "breakpoints": {
+    "tablet": 1050,
+    "mobile": 760,
+    "small": 390
+  }
+}
